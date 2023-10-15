@@ -14,18 +14,17 @@ body {
 a:link {
   color: var(--text-color);
   text-decoration: none;
+}
+a:visited {
+  font-style: italic;
+}
 
-  &:visited {
-    font-style: italic;
-  }
+a:hover {
+  text-decoration: underline;
+}
 
-  &:hover {
-    text-decoration: underline;
-  }
-
-  &:active {
-    background-color: var(--color-light-grey);
-  }
+a:active {
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
