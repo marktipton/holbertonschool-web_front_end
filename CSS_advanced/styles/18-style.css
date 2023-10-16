@@ -442,7 +442,7 @@ a:active {
   --nav-item-letter-spacing: 4%;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 calc(3 * var(--root-element)) 0 0;
-  --nav-item-link-hover: color-primary;
+  --nav-item-link-hover: var(--color-primary);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -499,5 +499,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav .nav-link:hover {
-  color:
+  color: nav var(--nav-item-link-hover)
 }
