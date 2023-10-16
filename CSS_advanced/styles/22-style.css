@@ -539,7 +539,7 @@ ul.row {
 }
 
 [data-section-theme="dark"] {
-  --text-color: #FFFFFF;
-  --section-title-color: #FFFFFF;
-  background: #000000;
+  --text-color: var(--color-white)
+  --section-title-color: var(--color-white);
+  background: var(--color-black);
 }
