@@ -409,7 +409,7 @@ a:active {
 }
 
 :root {
-  --button-disply: inline-block;
+  --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
   --button-border: 0.2rem solid var(--color-primary);
   --button-color: var(--color-black);
